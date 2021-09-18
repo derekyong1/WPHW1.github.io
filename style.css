@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.637);
+    background-attachment: fixed;
+
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 100px;
+    width: 100%
+}
+
+.header p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.link {
+    width: 30%;
+    height: 50px;
+    background-color: teal;
+    padding-top: 10px;
+    margin: auto;
+    text-align:center;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.profile {
+    margin:auto;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.253);
+    
+}
+
+.profile h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.profile img {
+    border-radius: 50%;
+    width: 240px;
+    height:250px;
+    display: block;
+}
+
+
+.section1 {
+    width: 460px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:rgba(0, 128, 128, 0.26);
+    font-size: 25px;
+    color: white
+}
+
+.section1 a {
+    text-decoration: underline;
+    color: white;
+
+}
+tr:nth-child(odd) {
+    background-color: tan;
+  }
+
+tr:nth-child(even) {
+    background-color: grey;
+  }
+
+h3 {
+    color: white;
+    font-size: 50px;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	display:inline;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+ul a {
+    font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+}
+
