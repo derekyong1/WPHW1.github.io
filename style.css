@@ -26,7 +26,7 @@ body {
 .link {
     width: 30%;
     height: 50px;
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.247);
     padding-top: 10px;
     margin: auto;
     text-align:center;
@@ -96,18 +96,65 @@ h3 {
     font-size: 50px;
 }
 
+.hobby h1 {
+    color: white;
+    padding-left: 650px;
+}
+
 ul#horizontal-list {
 	min-width: 696px;
 	display:inline;
 	padding-top: 20px;
+    
 	}
 	ul#horizontal-list li {
 		display: inline;
+        margin-left: 300px;
+        
 	}
 
 ul a {
     font-size: 30px;
+    color: white;
     text-decoration: none;
     margin: auto;
 }
 
+.list {
+    width: 30%;
+    background-color: rgba(0, 255, 255, 0.267);
+    display: table;
+    margin: 0 auto;
+}
+
+.list ul {
+    font-size: 30px;
+    color: white;
+
+}
+
+.quote h3 {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    height: 70px;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+footer a{
+
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 320px;
+}
